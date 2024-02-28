@@ -87,4 +87,4 @@ public class factory {
 
 
 
-## 抽象⼯⼚模式  
+### 抽象⼯⼚模式  
