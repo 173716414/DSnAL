@@ -1,6 +1,5 @@
-package ACM_Template;
+package acmTemplate;
 
-import java.io.FileOutputStream;
 import java.util.Scanner;
 
 /*

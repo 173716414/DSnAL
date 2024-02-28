@@ -88,7 +88,7 @@ public class Singleton {
 #### 代码
 
 ```java
-package Design_Pattern;
+package designPattern;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -96,7 +96,7 @@ import java.util.Scanner;
 
 /*
  *Author：Victor_htq
- *Package：Design_Pattern
+ *Package：designPattern
  *Project：DSnAL
  *name：Singleton
  *Date：2024/2/26  16:42
@@ -118,6 +118,7 @@ public class Singleton {
 class ShoppingCartManager {
     public static final ShoppingCartManager instance = new ShoppingCartManager();
     private Map<String, Integer> cart;
+
     private ShoppingCartManager() {
         cart = new LinkedHashMap<>();
     }

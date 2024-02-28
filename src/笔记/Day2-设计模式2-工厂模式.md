@@ -22,11 +22,11 @@
 ![工厂方法](img/工厂方法.png)
 
 ```java
-package Design_Pattern;
+package designPattern;
 
 /*
  *Author：Victor_htq
- *Package：Design_Pattern
+ *Package：designPattern
  *Project：DSnAL
  *name：factory
  *Date：2024/2/27  9:23
@@ -61,12 +61,13 @@ class CircleFactory implements ShapeFactory {
     }
 }
 
-class  SquareFactory implements ShapeFactory {
+class SquareFactory implements ShapeFactory {
     @Override
     public Shape createShape() {
         return new Square();
     }
 }
+
 public class factory {
     public static void main(String[] args) {
         ShapeFactory circleFactory = new CircleFactory();

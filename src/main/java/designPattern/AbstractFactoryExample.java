@@ -1,4 +1,4 @@
-package Design_Pattern;
+package designPattern;
 
 // 1. 定义抽象产品
 // 抽象产品A
