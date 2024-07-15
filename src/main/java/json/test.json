@@ -1,0 +1,9 @@
+{
+  "defaultAction": "aaa",
+  "syscalls": [
+    {
+      "name": "write",
+      "action": "aaa"
+    }
+  ]
+}
