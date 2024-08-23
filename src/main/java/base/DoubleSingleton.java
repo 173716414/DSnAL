@@ -9,7 +9,10 @@ package base;
  *Filename：DoubleSingleton
  */
 public class DoubleSingleton {
-
+    public static void main(String[] args) {
+        String s = "ababac";
+        // s.split();
+    }
     private static volatile DoubleSingleton singletonInstance;
 
     private DoubleSingleton() {
